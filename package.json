@@ -1,0 +1,31 @@
+{
+  "name": "league-of-extraordinary-makers",
+  "version": "1.0.0",
+  "description": "The Leage of Extraordinary Makers",
+  "main": "server.js",
+  "scripts": {
+    "start": "PORT=3000 node server.js",
+    "test": "eslint ."
+  },
+  "engines": {
+    "node": "7.9.0"
+  },
+  "keywords": [
+    "The League of Extraordinary Makers",
+    "League of Extraordinary Makers",
+    "makers",
+    "maker",
+    "loem",
+    "tloem"
+  ],
+  "author": "James Young <jmeyoung@gmail.com> (http://jamsyoung.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.15.2"
+  },
+  "devDpendencies": {
+    "eslint": "3.19.0",
+    "jq-cli-wrapper": "0.4.0",
+    "jsonlint": "1.6.2"
+  }
+}
